@@ -74,8 +74,6 @@ public class TextExpandableView extends LinearLayout {
         layoutParams.gravity = Gravity.RIGHT;
         mIvExpandView.setLayoutParams(layoutParams);
         setText(text);
-
-        Log.e("11111", "height1 = " + mTvExpandText.getHeight());
         setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
