@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextExpandableView">
+        <attr name="text" format="string|reference" />
+        <attr name="textSize" format="dimension|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="textLines" format="integer|reference" />
+        <attr name="lineSpacingMultiplier" format="float|reference" />
+        <attr name="lineSpacingExtra" format="float|reference" />
+    </declare-styleable>
+</resources>

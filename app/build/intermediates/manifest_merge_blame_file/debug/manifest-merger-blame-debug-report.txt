@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.liuzhenli.expandtext"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:5:5-19:19
+12        android:allowBackup="true"
+12-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:10:9-35
+18        android:testOnly="true"
+19        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+19-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:11:9-73
+20        <activity
+20-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:12:9-18:20
+21            android:name="com.liuzhenli.MainActivity"
+21-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:12:19-60
+22            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+22-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:12:61-125
+23            <intent-filter>
+23-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:14:17-69
+24-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:16:17-77
+26-->/Users/liuzhenli/Documents/Git/ExpandableTextViewDemo/app/src/main/AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

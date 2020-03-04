@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="国家卫健委：湖北以外省份，近5日每日新增确诊病例数基本维持在10例左右"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <com.liuzhenli.TextExpandableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Hello World!"
+        android:textColor="#565656"
+        android:textSize="14sp"
+        app:lineSpacingMultiplier="1.3"
+        app:text="简介:\n3月3日，国务院联防联控机制召开新闻发布会，介绍为疫情防控和复工复产提供财税政策支持有关情况。
+
+国家卫生健康委新闻发言人、宣传司副司长米锋说，除湖北以外，其他省份新增确诊病例11例，新增疑似病例65例，无新增死亡病例，重症病例减少25例。"
+        app:textLines="3" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:lineSpacingMultiplier="1.3"
+        android:text="       他提到，湖北以外省份，近5日每日新增确诊病例数基本维持在10例左右，每日新增疑似病例数连续4日维持在100例以下，近6日每日出院病例在3000例左右。全国疫情防控形势积极向好的态势正在拓展。\n
+
+“下一步，要突出以基层为重点，结合区域疫情风险分级，进一步强化工作责任，统筹做好疫情防控和日常诊疗等工作。"
+        android:textColor="#565656" />
+
+</LinearLayout>

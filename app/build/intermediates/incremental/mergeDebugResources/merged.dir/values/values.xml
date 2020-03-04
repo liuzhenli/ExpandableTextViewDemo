@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string name="app_name">TextExpand</string>
+    <declare-styleable name="TextExpandableView">
+        <attr format="string|reference" name="text"/>
+        <attr format="dimension|reference" name="textSize"/>
+        <attr format="color|reference" name="textColor"/>
+        <attr format="integer|reference" name="textLines"/>
+        <attr format="float|reference" name="lineSpacingMultiplier"/>
+        <attr format="float|reference" name="lineSpacingExtra"/>
+    </declare-styleable>
+</resources>
